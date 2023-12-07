@@ -1,4 +1,4 @@
-export default function page() {
+export default function Home() {
   return (
     <main>
 
@@ -19,5 +19,5 @@ export default function page() {
         </div>
       </div>
     </main>
-  )
-}
+    
+)}
