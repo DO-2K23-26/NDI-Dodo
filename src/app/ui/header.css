@@ -1,8 +1,8 @@
-.header {
+/* .header {
     background: url('../../../public/nuage.png') no-repeat center center; 
     background-size: cover;
     padding: 50px 0;
-  }
+  } */
   
   .navbar {
     display: flex;
@@ -19,8 +19,23 @@
     margin: 0 30px;
   }
   
-  .nav-item a {
+  /* .nav-item a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px black;
+
+  } */
+
+  .nav-item a{text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px black;
+  }
+  .header{
+    background: url('../../../public/noel.png') no-repeat center center; 
+    background-size: cover;
+    padding: 50px 0;
   }

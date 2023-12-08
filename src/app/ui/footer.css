@@ -1,7 +1,20 @@
-.footer {
+/* .footer {
     background: url('../../../public/herbe.png') no-repeat center center; 
     background-size: cover;
     color: black;
     text-align: center;
     padding: 50px 0;
-  }
+    font-size: 20px;
+    text-shadow: 4px 4px 5px black;
+
+  } */
+.footer{
+  background: url('../../../public/noel.png') no-repeat center center; 
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 20px;
+  text-shadow: 4px 4px 5px black;
+
+}
