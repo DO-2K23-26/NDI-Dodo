@@ -42,3 +42,6 @@ body {
   grid-area: 3 / 4 / 7 / 12;
   overflow: auto;
 }
+.global {
+  grid-area: 2 / 2 / 8 / 12;
+}
