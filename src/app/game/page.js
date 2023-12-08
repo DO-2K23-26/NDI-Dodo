@@ -1,10 +1,10 @@
+'use client'
+import React, { useState } from 'react';
 import '../ui/game/style.css';
 import Jauge from '../ui/game/Jauge';
 import questions from '../ui/game/data.json';
 import Question from '../ui/game/Question';
-import { useState, useEffect } from 'react';
 
-('use client');
 
 export default function page() {
 	const valeur = 50;
@@ -13,7 +13,7 @@ export default function page() {
 
 	const handleReponse = (reponse) => {
 		if (reponse === questions[currentQuestionIndex].reponse) {
-			setScore(score + 1);
+		setScore(score + 1);
 		}
 		setCurrentQuestionIndex(currentQuestionIndex + 1);
 	};
@@ -25,15 +25,19 @@ export default function page() {
 					<Jauge valeur={valeur} />
 				</div>
 				<div className='ask'>
-					{currentQuestionIndex < questions.length ? (
-						<Question
-							question={questions[currentQuestionIndex]}
-							onReponse={handleReponse}
-						/>
-					) : (
-						<p>Fin du jeu ! Votre score: {score}</p>
-					)}
-					<div className='score'>Score: {score}</div>
+					<div>
+						{currentQuestionIndex < questions.length ? (
+							<>
+							<Question
+								question={questions[currentQuestionIndex]}
+								onReponse={handleReponse}
+							/>
+							<div className="score">Score: {score}</div>
+							</>
+						) : (
+							<p>Fin du jeu ! Votre score: {score}</p>
+						)}
+					</div>
 				</div>
 			</div>
 		</div>
