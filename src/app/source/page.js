@@ -1,6 +1,8 @@
 export default function page() {
     return (
-      <p>Source Page</p>
+        <div className="global">
+            <p>Source Page</p>
+        </div>
     )
   }
   

@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 102vh;
+  }
+  
+.head { grid-area: 1 / 1 / 2 / 13; }
+.nav { grid-area: 2 / 1 / 8 / 3; }
+.foot { grid-area: 8 / 1 / 9 / 13; }
+.corp { 
+  grid-area: 3 / 4 / 7 / 12;
+  overflow: auto;
+}
+.global {
+  grid-area: 2 / 2 / 8 / 12;
+}
