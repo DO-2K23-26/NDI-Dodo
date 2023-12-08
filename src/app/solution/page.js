@@ -1,8 +1,10 @@
+import './solution.css';
+
 export default function page() {
     return (<div className="global">
       
       <div className="p-6  mx-auto bg-white rounded-xl shadow-md ">
-    <h1 className="text-xl font-bold text-blue-600">Solutions pour lutter contre le changement climatique <br></br></h1>
+    <h1 className="text-xl font-bold text-center ">Solutions pour lutter contre le changement climatique <br></br></h1>
     <div className="text-base text-gray-800  leading-loose mt-4">
     Il est vrai que toutes les solutions pour lutter contre le changement climatique ne se valent pas. Certaines sont plus efficaces à grande échelle et sur le long terme pour réduire les émissions de gaz à effet de serre. <br></br>
     
