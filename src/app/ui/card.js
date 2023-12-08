@@ -2,7 +2,7 @@ import CardTopRight from './card_top_right';
 import CardBottomLeft from './card_bottom_left';
 export default function Card({ topright, botleft, text, title }) {
 
-    return (<div className="flex justify-center items-center relative  min-h-[80%] max-w-lg min-w-[90%] p-6 border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    return (<div className="flex justify-center items-center relative m-auto min-h-[40%] max-w-lg min-w-[90%] p-6 border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
         <CardTopRight image={topright} />
         <CardBottomLeft image={botleft} />
