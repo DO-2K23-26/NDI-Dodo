@@ -1,0 +1,7 @@
+.footer {
+    background: url('../../../public/herbe.png') no-repeat center center; 
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+  }
