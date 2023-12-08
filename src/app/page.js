@@ -40,8 +40,7 @@ export default function Home() {
               <Card botleft="/logo_ndi.png" topright="/logo_ndi.png" title="Le projet" text="L’objectif de ce projet porté par le Réseau Action Climat et le Bureau de la Nuit de l'Info 2023 est de sensibiliser sur le changement climatique, d’y voir plus clair sur les options qui existent et de réaliser qu’un futur positif est à notre portée . Pour cela, il faut déceler le vrai du faux à travers une activité ludique et rétablir la vérité grâce à des données venant de sources fiables . " />
             </div>
 
-            <div className='h-96 bg-slate-800'></div>
-            <div className='h-96 bg-slate-800'></div>
+            <div className='h-96'></div>
             <div className='h-screen snap-center'>
               <Card title="L'effet de serre" text="Une des causes du changement climatique actuel est l’effet de serre. Ces gaz, présents dans l’atmosphère, forment une « barrière » autour de la Terre et piègent la chaleur à la surface de la Terre.
 L’effet de serre est présent naturellement. Il permet ainsi à notre planète d’avoir une température moyenne de +15°C à sa surface, adaptée à la vie humaine.
@@ -50,8 +49,7 @@ Sans cet effet de serre, il ferait -18°C sur Terre et toute vie y serait imposs
 Cet équilibre est mis en danger par les émissions de gaz à effet de serre liées aux activités humaines.
 " botleft="/fumee-incendie-feu.jpg" topright="/fumee-incendie-feu.jpg" />
             </div>
-            <div className='h-96 bg-slate-800'></div>
-            <div className='h-96 bg-slate-800'></div>
+            <div className='h-96'></div>
             <div className='h-screen snap-center'>
               <Card title="Le climat" text="Le climat correspond aux conditions météorologiques moyennes (températures, ensoleillement, humidité de l’air, vitesse des vents, etc.) d’une région donnée, durant une longue période.
 Il est influencé par la circulation atmosphérique (mouvement et déplacement de l’air) ;la circulation océanique (mouvement et déplacement de l’eau sur la planète) ; le relief ; les rayons du Soleil reçus par la surface terrestre.
@@ -59,8 +57,7 @@ Il est influencé par la circulation atmosphérique (mouvement et déplacement d
 Il y a donc changement climatique  lorsque ces conditions météorologiques moyennes commencent à changer, pour des raisons naturelles ou humaines.
 " topright="/feu_foret.jpg" botleft="/feu_foret.jpg" />
             </div>
-            <div className='h-96 bg-slate-800'></div>
-            <div className='h-96 bg-slate-800'></div>
+            <div className='h-96'></div>
             <div className='h-screen snap-center'>
               <Card title="Les principaux ges" text="Les principaux GES et leur production.
 Le dioxyde de carbone (CO2 combustion des énergies fossiles)
@@ -69,9 +66,6 @@ Le protoxyde d’azote (N2Oengrais azotés )
  Les gaz fluorés (CFC, HFC, climatisation & extincteur)
 " topright="/planete_temp.jpg" botleft="/planete_temp.jpg" />
             </div>
-
-
-
           </div>
         </div>
       </div>
