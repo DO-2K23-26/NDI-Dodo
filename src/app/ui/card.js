@@ -9,7 +9,7 @@ export default function Card({ topright, botleft, text, title }) {
         <div className='self-start bg-black'> <div className='flex justify-center'></div>
 
         </div>
-        <div className='self-center'><h5 className="container-lg text-[30px] max-w-lg mb-2 text-2xl font-bold tracking-tight text-white  dark:text-black">{title}</h5><p className="text-[30px] text-gray-700 dark:text-black ">{text}
+        <div className='self-center'><h5 className="container-lg text-[30px] text-center max-w-lg mb-2 text-2xl font-bold tracking-tight text-white  dark:text-black">{title}</h5><p className="text-[30px] text-gray-700 dark:text-black ">{text}
         </p></div>
 
     </div>)
