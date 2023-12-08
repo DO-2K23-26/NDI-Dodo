@@ -1,0 +1,26 @@
+.header {
+    background: url('../../../public/nuage.png') no-repeat center center; 
+    background-size: cover;
+    padding: 50px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0 30px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
