@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 .parent {
@@ -33,16 +30,70 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   height: 102vh;
-  }
-  
-.head { grid-area: 1 / 1 / 2 / 13; }
-.nav { grid-area: 2 / 1 / 8 / 3; }
-.foot { grid-area: 8 / 1 / 9 / 13; }
-.corp { 
+}
+
+.head {
+  grid-area: 1 / 1 / 2 / 13;
+}
+
+.nav {
+  grid-area: 2 / 1 / 8 / 3;
+}
+
+.foot {
+  grid-area: 8 / 1 / 9 / 13;
+}
+
+.corp {
   grid-area: 3 / 4 / 7 / 12;
   overflow: auto;
 }
+
 .global {
   grid-area: 2 / 2 / 8 / 12;
   overflow: auto;
+}
+
+.corner-image-bottom-left {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border-bottom-right-radius: 8px;
+  mask-image: linear-gradient(to top left, rgba(0, 0, 0, 0.9570028695071778) 10%, rgba(146, 50, 8, 0) 50%);
+
+}
+
+.corner-image-top-right {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border-top-left-radius: 8px;
+  mask-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9570028695071778) 10%, rgba(146, 50, 8, 0) 50%);
+
+}
+
+.corner-image-bottom-left {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border-bottom-right-radius: 8px;
+  mask-image: linear-gradient(to top left, rgba(0, 0, 0, 0.9570028695071778) 10%, rgba(146, 50, 8, 0) 50%);
+
+}
+
+.corner-image-top-right {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border-top-left-radius: 8px;
+  mask-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9570028695071778) 10%, rgba(146, 50, 8, 0) 50%);
+
 }
