@@ -1,8 +1,9 @@
+import './source.css';
 export default function page() {
     return (
         <div className="global">
         <div className="p-6  mx-auto bg-white rounded-xl shadow-md ">
-    <h1 className="text-xl font-bold text-blue-600">Sources <br></br></h1>
+    <h1 className="text-xl font-bold text-center ">Sources <br></br></h1>
         <p className=" leading-8 "> <p className=" font-semibold mt-4" >Changement climatique :</p> 
         <a href="https://reseauactionclimat.org/urgence-climatique/ ">https://reseauactionclimat.org/</a><br></br>
         <a href="https://climat.cned.fr/formations/ <br></br>">https://climat.cned.fr/</a><br></br>
