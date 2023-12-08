@@ -11,8 +11,8 @@ export default function page() {
     Voici quelques-unes de ces solutions :  <br></br>
 
 
-    <div class="grid grid-cols-3 gap-x-12 gap-y-6 text-center mt-4">
-        <div class="basis-1/3 rounded-md border">   <p className="font-semibold" > Transition vers les énergies renouvelables :</p> Remplacer les combustibles fossiles par des sources d'énergie renouvelable telles que l'énergie solaire, éolienne, hydroélectrique et géothermique.
+    <div class="grid grid-cols-3 gap-x-12 gap-y-6 text-center mt-4 ">
+        <div class="basis-1/3 rounded-md border ">   <p className="font-semibold" > Transition vers les énergies renouvelables :</p> Remplacer les combustibles fossiles par des sources d'énergie renouvelable telles que l'énergie solaire, éolienne, hydroélectrique et géothermique.
       </div>
         <div class="basis-1/3 rounded-md border">    <p className="font-semibold" >  Amélioration de l'efficacité énergétique :</p> Investir dans de nouvelles technologies et pratiques pour réduire la consommation d'énergie dans les secteurs industriels, commerciaux et résidentiels.
       </div>
