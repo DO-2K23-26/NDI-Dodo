@@ -1,4 +1,3 @@
-import React from 'react';
 import './footer.css'; // Assurez-vous de créer ce fichier CSS
 
 function Footer() {

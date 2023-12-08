@@ -1,4 +1,3 @@
-import newt from "../../../public/next.svg"
 import './header.css';
 export default function Header() {
     return (
