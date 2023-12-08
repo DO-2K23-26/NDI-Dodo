@@ -1,5 +1,5 @@
 export default function page() {
-    return (<>
+    return (<div className="global">
       
       <div className="p-6  mx-auto bg-white rounded-xl shadow-md ">
     <h1 className="text-xl font-bold text-blue-600">Solutions pour lutter contre le changement climatique <br></br></h1>
@@ -45,7 +45,7 @@ export default function page() {
    <p className="mt-4"> Ces solutions, combinées, peuvent contribuer de manière significative à la réduction des émissions de gaz à effet de serre et à la lutte contre le changement climatique.</p>
     </div>
 </div>
-</>
+</div>
     )
   }
   
