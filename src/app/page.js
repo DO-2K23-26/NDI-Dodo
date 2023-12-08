@@ -34,7 +34,7 @@ export default function Home() {
       <div className='corp'>
         <div className='grid grid-cols-12 gap-4 place-items'>
           <div className='col bg-blue-800'></div>
-          <div className='col-span-11 h-screen overflow-y-scroll snap-y snap-mandatory bg-red-800'>
+          <div className='col-span-11 h-screen overflow-y-scroll snap-y snap-mandatory'>
             <div className=''>
               <div className='h-screen snap-center'>
                 <Card title="Le feu" text="Le climat correspond aux conditions météorologiques moyennes (températures, ensoleillement, humidité de l’air, vitesse des vents, etc.) d’une région donnée, durant une longue période.
