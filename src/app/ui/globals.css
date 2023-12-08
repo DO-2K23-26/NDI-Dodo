@@ -44,4 +44,5 @@ body {
 }
 .global {
   grid-area: 2 / 2 / 8 / 12;
+  overflow: auto;
 }
